@@ -1,0 +1,374 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 130vh;
+}
+
+.container{
+    width: 72%;
+    height: 130vh;
+    border: 50px solid rgb(143,121,108);
+    margin-left: 160px;
+
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+    
+
+}
+.nav{
+    width: 40%;
+    height: 80px;
+    padding-top: 40px;
+    
+    
+   }
+.nav ul{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    list-style: none;
+    color: rgb(164,164,164);
+    
+}
+.nav ul a{
+    text-decoration: none;
+    color: rgb(164,164,164);
+}
+
+
+
+.logo{
+    width: 50%;
+    height: 80px;
+}
+.logo img{
+    width: 60px;
+    margin-left: 90px;
+    padding-top: 20px;
+}
+
+.icon{
+    width: 15%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.icon i{
+    font-size: 20px;
+    color: rgb(164,164,164);
+}
+
+.line10{
+    width:810px;
+    height: 1px;
+    background-color: rgb(164,164,164);
+    margin-left: 50px;
+    }
+   
+    .hero-section{
+        width: 100%;
+        height: 450px;
+        background-color: rgb(254,254,254);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    .left{
+        width: 50%;
+        height: 450px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        padding-inline: 90px;
+        padding-top: 60px;
+    }
+    .left img{
+        width: 30px;
+    }
+    .left h3{
+        font-size: 30px;
+        color: rgb(143,121,111);
+        padding-top: 30px;
+    }
+    .left h1{
+        font-size: 35px;
+        color: rgb(255,190,13);
+    }
+    .left p{
+        font-size: 14px;
+        color: rgb(143,121,111);
+        padding-top: 30px;
+    }
+     
+    .left button{
+        width:130px;
+        height: 40px;
+        font-size: 16px;
+        background-color:  rgb(255,190,13);
+        color:  rgb(143,121,111);
+        border: none;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+    .left a{
+        font-size: 18px;
+        color:  rgb(143,121,111);
+    }
+
+       .right{
+        width: 50%;
+        height: 450px;
+        background-color: rgb(254,254,254)
+
+    }
+    .right img{
+        width: 79%;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+
+      .last-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+      .left-part{
+        width:35%;
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        /* background-color: blueviolet; */
+         margin-left:20px; 
+        padding-top: 50px;
+      }
+    .small{
+        width: 100%;
+        height: auto;
+        /* background-color: brown; */
+        /* flex-direction: column; */
+        
+    }
+    .small p{
+        font-size: 16px;
+        color:  rgb(255,190,13);
+    }
+    .small h1{
+        font-size: 16px;
+        color:  rgb(143,121,111);
+    }
+ 
+    .small2{
+        width: 120%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+    .small2 p{
+        font-size: 16px;
+        color:  rgb(255,190,13);
+    }
+    .small2 h1{
+        font-size: 18px;
+        color:  rgb(143,121,111);
+        
+        
+    }
+ 
+       .line{
+        width: 2px;
+        height: 30px;
+        background-color:rgb(143,121,111);
+        margin-right: 10px
+        
+    
+    }
+
+
+   .mid-part{
+    width: 20%;
+    height: auto;
+    /* background-color: aqua; */
+    
+   }
+   .mid-part img{
+    width: 250px;
+    
+    padding-left: 120px;
+    
+    }
+    .last-part{
+        width: 30%;
+        height: auto;
+        flex-direction: column;
+        padding-left: 160px;
+    }
+    .last-part a{
+        font-size: 10px;
+    }
+    .last-part i{
+        font-size: 8px;
+        color:  rgb(255,190,13);
+    }
+    .last-part h1{
+        font-size: 16px;
+        color: rgb(143,121,111);
+    }
+    .last-part p{
+        font-size: 12px;
+        color: rgb(143,121,111);
+    }
+  
+    .least-part{
+        width: 15%;
+        height: auto;
+        /* background-color: black; */
+    }
+    .least-part img{
+        width: 80px;
+        padding-left: 0px;
+
+    }
+    .side img{
+        width: 70px;
+        position: relative;
+        left: 950px;
+        top: 0px;
+    }
+    .right .new{
+        display: none;
+    }
+
+/* --------------- */
+
+@media(max-width:768px){
+
+    .right .new{
+        display: inline;
+    }
+    .right img{
+        display: none;
+    }
+
+
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+}
+.header{
+    width: 100%;
+    padding-inline: 0px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.nav ul{
+    display: none;
+}
+.line10{
+    width: 300px;
+}
+
+.logo img{
+    margin-left: 0px;
+    margin-right: 350px;
+}
+.icon{
+    margin-right: 50px;
+}
+.hero-section{
+    width: 100%;
+    height: auto;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 0px;
+  }
+.left{
+    width: 100%;
+    height: auto;
+    padding-inline: 10px;
+}
+.right{
+    width: 100%;
+    height: auto;
+}
+
+
+.last-section{
+    flex-direction: column;
+}
+
+.left-part{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: px;
+}
+.small{
+    width: 100%;
+}
+.small2{
+    width: 100%;
+}
+.mid-part{
+    display: none;
+}
+.last-part{
+    width: 100%;
+    padding-top: 50px;
+
+}
+.least-part{
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.side img{
+    display: none;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* clip-path: polygon(44% 17%, 100% 16%, 100% 81%, 57% 71%); */ full
+
+
+/* clip-path: polygon(57% 63%, 38% 96%, 69% 99%); */      cup
